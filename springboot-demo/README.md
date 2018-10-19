@@ -1,4 +1,4 @@
-### springboot-demo 第一次运行
+# springboot-demo 第一次运行
 
 1. 首先引入sprintmaven依赖
 
@@ -38,6 +38,7 @@ public class Application {
 }
 ```
 **application.java文件用于运行该springboot服务**
+
 3. 相关注解
 
     1. @SpringBootApplication<br/>
@@ -48,6 +49,7 @@ public class Application {
 		这个注解相当于同时添加@Controller和@ResponseBody注解。<br/>
     4. @ComponentScan<br/>
 		扫描的路径，或包的路径。<br/>
+		
 4. application.properties文件配置
     application.properties文件会在项目启动时自动加载进来，很多配置需要在该文件中配置，如端口号，项目名，数据库相关配置等。
 ---
