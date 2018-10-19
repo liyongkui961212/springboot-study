@@ -1,4 +1,4 @@
-#Springboot 打包成war放在tomcat下运行
+# Springboot 打包成war放在tomcat下运行
 _war包也可以通过java -jar 命令执行_
 1.需要添加maven依赖
 ``` 
