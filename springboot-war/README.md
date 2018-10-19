@@ -1,6 +1,6 @@
 # Springboot 打包成war放在tomcat下运行
 _war包也可以通过java -jar 命令执行_
-1.需要添加maven依赖
+1. 需要添加maven依赖
 ``` 
      	<dependency>  
 	        <groupId>org.springframework.boot</groupId>  
@@ -15,7 +15,7 @@ _war包也可以通过java -jar 命令执行_
 	    </dependency> 
 ```
 
-2.构造类似web.xml的启动类
+2. 构造类似web.xml的启动类
 ```
    	 public class SpringBootStartApplication extends SpringBootServletInitializer {
 	 
